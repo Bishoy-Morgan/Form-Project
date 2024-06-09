@@ -1,0 +1,21 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Orbit", sans-serif;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../public/Images/oleg-laptev-7jQh3EiS8Bs-unsplash.jpg);
+    background-size: cover;
+    z-index: 10;
+}
